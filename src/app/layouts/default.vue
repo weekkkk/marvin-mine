@@ -1,4 +1,5 @@
 <template>
+  <LayoutHeaderWidget />
   <div>
     <NuxtPage />
   </div>

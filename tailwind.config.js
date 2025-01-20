@@ -3,9 +3,9 @@ export default {
   content: ["./src/**/*.{js,vue,ts}"],
   theme: {
     extend: {},
-  },
-  theme: {
-    extend: {},
+    colors: {
+      brand: "#553E34",
+    },
   },
   plugins: [],
 };
