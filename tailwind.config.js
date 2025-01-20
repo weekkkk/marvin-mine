@@ -5,6 +5,19 @@ export default {
     extend: {},
     colors: {
       brand: "#553E34",
+      common: "#000000",
+      default: "#CDC7AF",
+    },
+    fontSize: {
+      default: "1rem",
+      control: "1.1rem",
+    },
+    lineHeight: {
+      default: "1",
+      control: "1.2",
+    },
+    boxShadow: {
+      button: "inset 0 4px #CDC8B0, 0 6px 0 rgba(0, 0, 0, 0.38)",
     },
   },
   plugins: [],

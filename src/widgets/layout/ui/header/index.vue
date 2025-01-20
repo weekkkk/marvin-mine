@@ -35,12 +35,9 @@ const socials = [
         'pl-20 pr-12',
       ]"
     >
-      <ul :class="['uppercase text-brand', 'flex gap-20']">
+      <ul :class="['uppercase text-brand text-control', 'flex gap-20']">
         <li v-for="{ hash, text } in links" :key="hash">
-          <NuxtLink
-            :to="{ hash }"
-            class="hover:brightness-150 transition-transform"
-          >
+          <NuxtLink :to="{ hash }" class="hover:brightness-150 transition-all">
             {{ text }}
           </NuxtLink>
         </li>
@@ -50,7 +47,13 @@ const socials = [
         <li v-for="{ href, icon } in socials" :key="icon">
           <a
             :href="href"
-            :class="['p-[0.2rem', 'bg-brand', 'inline-block', 'rounded-full']"
+            :class="[
+              'p-[0.2rem',
+              'bg-brand',
+              'inline-block',
+              'rounded-full',
+              'hover:brightness-150 transition-all',
+            ]"
           >
             <NuxtImg :src="icon" class="h-[1.4rem]" />
           </a>

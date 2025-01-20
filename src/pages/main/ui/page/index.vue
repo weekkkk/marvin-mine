@@ -1,0 +1,3 @@
+<template>
+  <SectionHelloWidget />
+</template>

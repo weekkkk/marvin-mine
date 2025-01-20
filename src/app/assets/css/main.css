@@ -12,6 +12,8 @@
     line-height: 1.25 !important;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* Internet Explorer 10+ */
+    background-image: url("/bgs/app.jpg");
+    background-size: cover;
   }
   @media (max-width: 768px) {
     :root {
