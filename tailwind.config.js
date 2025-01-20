@@ -15,6 +15,7 @@ export default {
     lineHeight: {
       default: "1",
       control: "1.2",
+      text: "1.25",
     },
     boxShadow: {
       button: "inset 0 4px #CDC8B0, 0 6px 0 rgba(0, 0, 0, 0.38)",

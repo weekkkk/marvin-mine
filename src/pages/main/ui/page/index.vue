@@ -1,3 +1,5 @@
 <template>
   <SectionHelloWidget />
+
+  <SectionAboutWidget />
 </template>
