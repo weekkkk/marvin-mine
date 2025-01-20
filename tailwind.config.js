@@ -6,7 +6,8 @@ export default {
     colors: {
       brand: "#553E34",
       common: "#000000",
-      default: "#CDC7AF",
+      def: "#ffffff",
+      second: "#CDC7AF",
     },
     fontSize: {
       default: "1rem",
