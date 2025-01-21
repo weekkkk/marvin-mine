@@ -1,5 +1,9 @@
 <template>
-  <div>
+  <LayoutHeaderWidget />
+
+  <main>
     <NuxtPage />
-  </div>
+  </main>
+
+  <LayoutFooterWidget />
 </template>
