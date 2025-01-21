@@ -8,6 +8,8 @@ export default {
         'olive': '#768F2B',
         'spruce': '#2C3805',
         'beige': '#CDC7AF',
+        'brown': '#553E34',
+        'pebble': '#ACAB8A',
       },
       boxShadow: {
         'inner-top': 'inset 0 2px 0 0 #C3BF5B',
