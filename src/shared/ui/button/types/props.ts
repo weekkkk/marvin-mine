@@ -1,5 +1,5 @@
 export type UiButtonProps = {
   disabled?: boolean;
   readonly?: boolean;
-  active: boolean;
+  active?: boolean;
 };

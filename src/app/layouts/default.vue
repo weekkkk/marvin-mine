@@ -1,5 +1,7 @@
 <template>
-  <div>
+  <LayoutHeaderWidget />
+  <main class="h-full py-5">
     <NuxtPage />
-  </div>
+  </main>
+  <LayoutFooterWidget />
 </template>

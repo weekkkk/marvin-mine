@@ -1,3 +1,3 @@
 <template>
-  <MainPage />
+  <ChartPage />
 </template>
