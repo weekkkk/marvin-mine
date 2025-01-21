@@ -27,15 +27,33 @@ const socials = [
 </script>
 
 <template>
-  <header class="relative mx-auto my-10 h-[6.2rem] w-[51.5rem]">
+  <header
+    :class="[
+      'relative mx-auto',
+      'my-10',
+      'max-md:my-0',
+      'h-[6.2rem] w-[51.5rem]',
+      'max-md:h-[5rem] max-md:w-full',
+    ]"
+  >
     <nav
       :class="[
         'absolute left-0 right-0 top-0 bottom-0',
-        'flex items-center justify-between',
+        'flex items-center justify-between max-md:justify-center',
         'pl-20 pr-12',
+        'max-md:pl-4 max-md:pr-4',
       ]"
     >
-      <ul :class="['uppercase text-brand text-control', 'flex gap-20']">
+      <ul
+        :class="[
+          'uppercase text-brand',
+          'text-control',
+          'max-md:text-[0.75rem]',
+          'flex',
+          'gap-20',
+          'max-md:gap-[1.5rem]',
+        ]"
+      >
         <li v-for="{ hash, text } in links" :key="hash">
           <NuxtLink :to="{ hash }" class="hover:brightness-150 transition-all">
             {{ text }}
@@ -43,12 +61,20 @@ const socials = [
         </li>
       </ul>
 
-      <ul :class="['flex gap-4']">
+      <ul
+        :class="[
+          'flex gap-4',
+          'max-md:absolute max-md:top-full max-md:left-1/2',
+          'max-md:-translate-x-1/2 max-md:translate-y-[1.1rem]',
+          'max-md:z-10',
+        ]"
+      >
         <li v-for="{ href, icon } in socials" :key="icon">
           <a
             :href="href"
             :class="[
-              'p-[0.2rem',
+              'p-[0.2rem]',
+              'max-md:p-[0.1rem]',
               'bg-brand',
               'inline-block',
               'rounded-full',
@@ -61,6 +87,13 @@ const socials = [
       </ul>
     </nav>
 
-    <NuxtImg class="object-cover w-full h-full" src="/bgs/header.svg" />
+    <NuxtImg
+      class="max-md:hidden object-cover w-full h-full"
+      src="/bgs/header.svg"
+    />
+    <NuxtImg
+      class="md:hidden object-cover w-full h-full"
+      src="/bgs/header-mobile.svg"
+    />
   </header>
 </template>
