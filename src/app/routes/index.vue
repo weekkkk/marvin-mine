@@ -1,3 +1,1 @@
-<template>
-  <MainPage />
-</template>
+<template></template>
