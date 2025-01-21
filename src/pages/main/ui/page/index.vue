@@ -5,13 +5,13 @@
 
   <SectionAboutWidget />
 
-  <SectionStepsWidget />
+  <SectionStepsWidget id="how_to_play" />
 
   <SectionScreenshotsWidget />
 
-  <SectionRoadmapWidget />
+  <SectionRoadmapWidget id="roadmap" />
 
   <SectionPartnersWidget />
 
-  <SectionStatisticWidget />
+  <SectionStatisticWidget id="tokenomics" />
 </template>
