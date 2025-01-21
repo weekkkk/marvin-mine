@@ -37,10 +37,10 @@
     </ul>
 
     <div class="flex gap-[2.5rem]">
-      <UiButton class="w-[5rem] px-0 inline-flex justify-center">
+      <UiButton class="w-[5rem] inline-flex justify-center pl-0 pr-0">
         <NuxtImg src="/icons/left.svg" class="h-[1.75rem]" />
       </UiButton>
-      <UiButton class="w-[5rem] px-0 inline-flex justify-center">
+      <UiButton class="w-[5rem] inline-flex justify-center pl-0 pr-0">
         <NuxtImg src="/icons/right.svg" class="h-[1.75rem]" />
       </UiButton>
     </div>

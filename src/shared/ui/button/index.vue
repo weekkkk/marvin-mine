@@ -2,7 +2,7 @@
   <button
     :class="[
       'bg-common text-second',
-      'px-11 py-7',
+      'px-10 py-7',
       'rounded-[1.5rem]',
       'text-control',
       'leading-default',
