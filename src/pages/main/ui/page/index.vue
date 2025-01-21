@@ -11,7 +11,7 @@
 
   <SectionRoadmapWidget id="roadmap" />
 
-  <SectionPartnersWidget />
-
   <SectionStatisticWidget id="tokenomics" />
+
+  <SectionPartnersWidget />
 </template>

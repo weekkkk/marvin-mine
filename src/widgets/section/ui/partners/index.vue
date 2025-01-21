@@ -13,13 +13,19 @@
 
     <ul class="flex items-center gap-[3.5rem] max-md:gap-[2.2rem]">
       <li>
-        <NuxtImg src="/icons/partner-1.svg" class="max-md:h-[1.85rem]" />
+        <NuxtImg
+          src="/icons/partner-1.svg"
+          class="h-[5rem] max-md:h-[1.85rem]"
+        />
       </li>
       <li>
-        <NuxtImg src="/icons/partner-2.svg" class="max-md:h-[2rem]" />
+        <NuxtImg src="/icons/partner-2.svg" class="h-[5rem] max-md:h-[2rem]" />
       </li>
       <li>
-        <NuxtImg src="/icons/partner-3.svg" class="max-md:h-[2.35rem]" />
+        <NuxtImg
+          src="/icons/partner-3.svg"
+          class="h-[6.2rem] max-md:h-[2.35rem]"
+        />
       </li>
     </ul>
   </section>
