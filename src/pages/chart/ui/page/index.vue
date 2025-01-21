@@ -1,3 +1,5 @@
 <template>
-  <SectionDialogWidget />
+  <div class="w-full">
+    <SectionDialogWidget />
+  </div>
 </template>

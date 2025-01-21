@@ -33,7 +33,7 @@ const stats = [
       backgroundRepeat: 'no-repeat',
     }"
   >
-    <table class="text-center border-spacing-2 border-separate">
+    <table class="text-center border-spacing-2 border-separate blur-sm">
       <thead>
         <tr>
           <th class="text-pebble">RANKING</th>
