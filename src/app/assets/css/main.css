@@ -12,10 +12,19 @@
     line-height: 1.25 !important;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* Internet Explorer 10+ */
+    background-image: url("/imgs/bgs/app.jpg");
+    background-size: cover;
+  }
+
+  #__nuxt {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   @media (max-width: 768px) {
     :root {
-      font-size: 15px;
+      font-size: 16px;
     }
   }
 }

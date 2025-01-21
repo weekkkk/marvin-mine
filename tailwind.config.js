@@ -2,10 +2,23 @@
 export default {
   content: ["./src/**/*.{js,vue,ts}"],
   theme: {
-    extend: {},
-  },
-  theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'black': '#000000',
+        'olive': '#768F2B',
+        'spruce': '#2C3805',
+        'beige': '#CDC7AF',
+        'brown': '#553E34',
+        'pebble': '#ACAB8A',
+      },
+      boxShadow: {
+        'inner-top': 'inset 0 2px 0 0 #C3BF5B',
+        'inner-top-light': 'inset 0 2px 0 0 #CDC8B0',
+      },
+      dropShadow: {
+        'outer-bottom': '0px 3px 0px #00000061'
+      }
+    },
   },
   plugins: [],
 };
