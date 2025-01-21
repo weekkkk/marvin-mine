@@ -1,8 +1,20 @@
 <script setup lang="ts">
 const links = [
-  { href: "#", text: "Play now", icon: "/icons/gamepad.svg" },
-  { href: "#", text: "Ranking", icon: "/icons/rocket.svg" },
-  { href: "#", text: "Chart", icon: "/icons/star.svg" },
+  {
+    href: "https://t.me/marvinminebot?startapp",
+    text: "Play now",
+    icon: "/icons/gamepad.svg",
+  },
+  {
+    href: "https://t.me/marvinminebot?startapp",
+    text: "Ranking",
+    icon: "/icons/rocket.svg",
+  },
+  {
+    href: "https://t.me/marvinminebot?startapp",
+    text: "Chart",
+    icon: "/icons/star.svg",
+  },
 ];
 
 const targetDate = new Date("January 25, 2025 00:00:00").getTime();
@@ -92,7 +104,7 @@ updateTimer();
       ]"
     >
       <li v-for="{ href, text, icon } in links" key="text">
-        <a :href="href">
+        <a :href="href" target="_blank">
           <UiButton class="w-[12.5rem] max-md:w-[9.4rem]">
             <div class="uppercase inline-flex items-end gap-2">
               <NuxtImg class="h-[1.2rem] max-md:h-[0.9rem]" :src="icon" />

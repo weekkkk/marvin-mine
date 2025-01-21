@@ -16,11 +16,11 @@ const links = [
 
 const socials = [
   {
-    href: "#",
+    href: "https://t.me/marvinminebot?startapp",
     icon: "/icons/x.svg",
   },
   {
-    href: "#",
+    href: "https://t.me/marvinminebot?startapp",
     icon: "/icons/tg.svg",
   },
 ];
@@ -75,6 +75,7 @@ const socials = [
           <li v-for="{ href, icon } in socials" :key="icon">
             <a
               :href="href"
+              target="_blank"
               :class="[
                 'p-[0.2rem]',
                 'max-md:p-[0.1rem]',
