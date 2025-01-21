@@ -1,0 +1,23 @@
+<svg width="275" height="268" viewBox="0 0 275 268" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_di_93_323)">
+<path d="M3 2H54.3043L75.029 12.7246L95.7536 2H254.449L264.304 12.7246L273 20.8406V161.855L267.203 177.652L273 193.449V258H235.899L220.826 248.725L175.754 258L86.1884 252.203L3 258V219.159L16.913 205.246L3 191.333L9.37681 161.855L3 2Z" fill="#E9E8C8"/>
+<path d="M3 1H1.95931L2.00079 2.03986L8.37254 161.768L2.02261 191.122L1.90732 191.655L2.29289 192.04L15.4988 205.246L2.29289 218.452L2 218.745V219.159V258V259.072L3.06952 258.998L86.1908 253.205L175.689 258.998L175.823 259.007L175.955 258.979L220.639 249.784L235.374 258.852L235.616 259H235.899H273H274V258V193.449V193.272L273.939 193.105L268.268 177.652L273.939 162.2L274 162.033V161.855V20.8406V20.406L273.682 20.1095L265.015 12.0198L255.186 1.32337L254.888 1H254.449H95.7536H95.5102L95.294 1.11187L75.029 11.5987L54.7639 1.11187L54.5478 1H54.3043H3Z" stroke="#756953" stroke-width="2"/>
+</g>
+<defs>
+<filter id="filter0_di_93_323" x="0.814575" y="-7.8" width="274.185" height="274.944" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="7"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.317647 0 0 0 0 0.262745 0 0 0 0 0.180392 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_93_323"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_93_323" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-10"/>
+<feGaussianBlur stdDeviation="3.9"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.317647 0 0 0 0 0.262745 0 0 0 0 0.180392 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_93_323"/>
+</filter>
+</defs>
+</svg>
