@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const props = defineProps<{ n: number }>();
+const props = defineProps<{ n: number; custom?: boolean }>();
 </script>
 
 <template>
@@ -11,6 +11,11 @@ const props = defineProps<{ n: number }>();
         <slot />
       </div>
     </div>
-    <NuxtImg src="/bgs/step.svg" class="object-cover h-full w-full" />
+    <NuxtImg
+      v-if="!custom"
+      src="/bgs/step.svg"
+      class="object-cover h-full w-full"
+    />
+    <NuxtImg v-else src="/bgs/step-2.svg" class="object-cover h-full w-full" />
   </div>
 </template>

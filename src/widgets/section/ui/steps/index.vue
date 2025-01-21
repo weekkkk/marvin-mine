@@ -16,7 +16,7 @@
       </li>
 
       <li>
-        <SectionStepsItemWidget :n="2">
+        <SectionStepsItemWidget :n="2" custom>
           <p>
             <span class="text-common"> Upgrade & Unlock New Abilities: </span>
             Use the mined gold to upgrade your tools and unlock new abilities to

@@ -6,4 +6,12 @@
   <SectionAboutWidget />
 
   <SectionStepsWidget />
+
+  <SectionScreenshotsWidget />
+
+  <SectionRoadmapWidget />
+
+  <SectionPartnersWidget />
+
+  <SectionStatisticWidget />
 </template>
