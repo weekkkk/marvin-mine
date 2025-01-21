@@ -18,7 +18,7 @@ const links = [
 </script>
 
 <template>
-  <footer class="px-8 mb-8">
+  <footer class="px-8 mb-8 fixed bottom-0 left-0 right-0">
     <nav>
       <ul class="flex justify-between">
         <li v-for="{ path, text } in links" key="path">
