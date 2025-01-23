@@ -16,7 +16,7 @@ const links = [
 
 const socials = [
   {
-    href: "https://t.me/marvinminebot?startapp",
+    href: "https://x.com/marvinmineton?s=21",
     icon: "/icons/x.svg",
   },
   {

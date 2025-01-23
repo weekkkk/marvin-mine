@@ -17,7 +17,7 @@ const links = [
   },
 ];
 
-const targetDate = new Date("January 25, 2025 00:00:00").getTime();
+const targetDate = new Date("January 26, 2025 00:00:00").getTime();
 
 const time = reactive({
   days: "",
