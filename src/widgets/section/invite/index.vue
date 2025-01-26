@@ -1,9 +1,11 @@
 <script setup lang="ts">
 const config = useRuntimeConfig();
-const img = computed(() => `${config.app.baseURL}imgs/dialog/paper.svg`);
+const img = computed(() => `${config.app.baseURL}imgs/dialog/test.svg`);
+
+const url = inject<Ref<string>>("url");
 
 const copy = async () => {
-  const textToCopy = "https://t.me/marvinminebot?startapp";
+  const textToCopy = url?.value || "";
   try {
     await navigator.clipboard.writeText(textToCopy);
   } catch (err) {
@@ -13,7 +15,7 @@ const copy = async () => {
 
 const share = async () => {
   const shareData: ShareData = {
-    url: "https://t.me/marvinminebot?startapp",
+    url: url?.value || "",
   };
 
   if (navigator.share) {

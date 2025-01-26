@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const config = useRuntimeConfig();
-const img = computed(() => `${config.app.baseURL}imgs/dialog/paper.svg`);
+const img = computed(() => `${config.app.baseURL}imgs/dialog/test.svg`);
 </script>
 
 <template>

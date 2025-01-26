@@ -92,4 +92,21 @@ export default defineNuxtConfig({
     ],
   },
   modules: ["nuxt-keen-slider"],
+  app: {
+    head: {
+      script: [
+        {
+          src: "https://telegram.org/js/telegram-web-app.js?56", // URL скрипта
+          async: true, // Скрипт будет загружен асинхронно
+        },
+      ],
+      meta: [
+        {
+          name: "viewport",
+          content:
+            "width=device-width, initial-scale=1, height=device-height, user-scalable=no",
+        },
+      ],
+    },
+  },
 });

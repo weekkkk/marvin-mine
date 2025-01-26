@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const targetDate = new Date("January 25, 2025 00:00:00").getTime();
+const targetDate = new Date("2025-01-26T17:00:00Z").getTime();
 
 const time = reactive({
   days: "",
@@ -45,15 +45,15 @@ updateTimer();
 
 <template>
   <div :class="['flex flex-col', 'items-center']">
-    <img src="/imgs/timer/title.svg" class="h-10 mb-2" />
+    <img src="/imgs/timer/title.png" class="h-14 mb-3" />
 
     <ul class="inline-flex gap-2 mb-4 text-brand">
       <li v-for="key in Object.keys(time)" :key="key" class="relative">
-        <img src="/imgs/bgs/time.svg" class="h-4" />
+        <img src="/imgs/bgs/time.svg" class="h-5" />
         <div
           class="absolute object-cover top-0 w-full h-full inline-flex justify-center items-center"
         >
-          <span class="text-xs">
+          <span class="text-xs text-brown">
             {{ time[key as keyof typeof time] }}
           </span>
         </div>

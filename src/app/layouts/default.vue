@@ -1,3 +1,23 @@
+<script setup lang="ts">
+const generateRandomNumber = () => {
+  return Math.floor(10000 + Math.random() * 90000).toString();
+};
+
+const url = ref("https://t.me/marvinminebot?startapp=");
+
+provide("url", url);
+
+onMounted(() => {
+  url.value += generateRandomNumber();
+
+  if (window?.Telegram?.WebApp) {
+    window.Telegram.WebApp.expand();
+  } else {
+    console.warn("Telegram WebApp API is not available");
+  }
+});
+</script>
+
 <template>
   <LayoutHeaderWidget />
   <main class="relative h-full">
